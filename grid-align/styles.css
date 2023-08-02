@@ -1,0 +1,30 @@
+.container{
+    margin: 0 auto;
+    width: 90%;
+    height: 90vh;
+    background-color: aquamarine;
+    border: medium solid black;
+}
+.item{
+    padding: 1rem;
+    background-color: blueviolet;
+    border: medium solid greenyellow;
+}
+.grid-align{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(2, 150px);
+    justify-items: stretch;
+    justify-items: start;
+    justify-items: end;
+    justify-items: center;
+    align-items: stretch;
+    align-items: start;
+    align-items: end;
+    align-items: center;
+}
+.item:nth-child(5){
+    background-color: rgb(114, 236, 39);
+    justify-self: end;
+    align-self: end;
+}

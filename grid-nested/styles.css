@@ -1,0 +1,22 @@
+.container{
+    margin: 0 auto;
+    width: 90%;
+    height: 90vh;
+    background-color: aquamarine;
+    border: medium solid black;
+}
+.item{
+    padding: 1rem;
+    background-color: blueviolet;
+    border: medium solid greenyellow;
+}
+.sub-item{
+    padding: 1rem;
+    background-color: crimson;
+    border: medium solid rgb(245, 238, 238);
+}
+.grid-nested{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+

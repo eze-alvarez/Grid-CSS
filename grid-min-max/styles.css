@@ -1,0 +1,22 @@
+.container{
+    margin: 0 auto;
+    width: 90%;
+    height: 90vh;
+    background-color: aquamarine;
+    border: medium solid black;
+}
+.item{
+    padding: 1rem;
+    background-color: blueviolet;
+    border: medium solid greenyellow;
+}
+.grid-min-max{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, minmax(100px,200px));
+    grid-template-columns: repeat(4, minmax(min-content,200px));
+    grid-template-columns: repeat(4, minmax(100px,min-content));
+    grid-template-columns: repeat(4, minmax(min-content,max-content));
+    
+}
+
